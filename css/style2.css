@@ -1,0 +1,91 @@
+
+.row {
+    width: 100%;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-flow: row wrap;
+  }
+  
+  .product, .product--blue, .product--orange, .product--red, .product--green, .product--yellow, .product--pink {
+    box-shadow: 1px 5px 15px rgb(149, 148, 148);
+    width: 15em;
+    height: auto;
+    border-radius: 3px;
+    padding: 2em;
+    margin: 1em;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-flex: 1;
+            flex: auto;
+  }
+  .product--blue {
+    background: linear-gradient(-45deg, #7c5eb396 50%, rgba(255, 255, 255, 0.5) 50%);
+  }
+  .product--orange {
+    background: linear-gradient(-45deg, #2055438f 50%, rgba(255, 255, 255, 0.5) 50%);
+  }
+  .product--red {
+    background: linear-gradient(-45deg, #48e8db83 50%, rgba(255, 255, 255, 0.5) 50%);
+  }
+  .product--green {
+    background: linear-gradient(-45deg, #515c1473 50%, rgba(255, 255, 255, 0.5) 50%);
+  }
+  .product--yellow {
+    background: linear-gradient(-45deg, #e8dc7d71 50%, rgba(255, 255, 255, 0.5) 50%);
+  }
+  
+  .product img, .product--blue img, .product--orange img, .product--red img, .product--green img, .product--yellow img, .product--pink img {
+    max-width: 100%;
+    height: auto !important;
+    text-align: center;
+  }
+  .product_inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+            flex-flow: column wrap;
+  }
+  .product_inner p {
+    color: #2B2D42;
+  }
+  .product_inner button {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #1F7A8C;
+    border-radius: 3px;
+    margin-left: auto;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: background ease-in .25s;
+    transition: background ease-in .25s;
+  }
+  .product_inner i{
+    color: #1F7A8C;
+  }
+  .product_inner button:hover {
+    background: white;
+    color: #2B2D42;
+  }
+  .product_inner button:before {
+    font-family: FontAwesome;
+    color: #FFF;
+    position: absolute;
+    font-size: 1.5em;
+    margin: 0 -1.5em;
+  }
+  .product_inner button:hover:before {
+    color: #2B2D42;
+  }
+  
+  @media (max-width: 450px ) { 
+    .product_inner{
+      margin-left: -5%;
+    }
+   
+  }
+  

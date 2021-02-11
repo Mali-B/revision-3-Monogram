@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Contacto</title>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/3dc037729c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleH.css">
+    <link rel="stylesheet" href="css/styleContacto.css">
+  </head>
+  <body>
+    <header class="container ">
+        <div class="row row_menu">
+            <div class="col-12 pt-2 pb-2 redes-menu">
+                <div class="redesSociales d-flex justify-content-end">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook-f me-2" title="red Social Facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram me-2" title="red Social  instagram"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter me-2" title="red Social twitter"></i></a>
+                </div>
+            </div>
+            <div class="row menu-principal">
+                <nav class="navbar navbar-expand-lg  mt-3 mt-auto ">
+                    <div class="container-fluid">
+                      <a href="index.html" class="navbar-brand col-md-12 col-lg-2">
+                        <img src="img/logo-02.png"  alt="logotipo de la empresa" width="200px">
+                    </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toogle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Productos1.2.html" class="nav-link">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Marcas.html" class="nav-link">Marcas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="Contacto.html" tabindex="-1"
+                                        aria-disabled="true">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!---->
+    <section class="container contenedor-contacto mb-4 mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+            <div class="section-title">
+                <h2>Sobre nosotros</h2>
+                <p>Garantisamos simpre una maxima calidad es los diseños, ademas contamos con los mejores sastres del pais asegurando maxima comodida en sus trajes</p>
+            </div>
+        </div>
+      <div class="row">
+        <div class=" col-12 col-md-4">
+          <div class="contact-name">
+            <h5>Correo</h5>
+            <p>monogramcr.com</p>
+        </div>
+        <div class="contact-name">
+            <h5>Visitanos</h5>
+            <p>San Jose Escazú Village, <br>Trejos Montealegre.</p>
+        </div>
+        <div class="contact-name">
+            <h5>Telefono</h5>
+            <p>+506 25467579</p>
+        </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="container formularioEnvioProducto">
+            <div class="row formularioEstilo mb-2">
+                <div class="col-12 tituloForm2 text-center mt-3">
+                    <h1> Información Contacto</h1>
+                </div>
+                <form method="POST" class="formulario col-12" id="form">
+                    <fieldset>
+                        <!-- Grupo: Nombre -->
+                        <div class="formulario__grupo" id="grupo__nombre">
+                            <label for="nombre" class="formulario__label">Nombre</label>
+                            <div class="formulario__grupo-input">
+                                <input type="text" class="formulario__input" name="nombre" id="nombre"
+                                    placeholder="John Doe">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                            <p class="formulario__input-error">Escriba correctamente el Nombre.</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <!-- Grupo: Correo Electronico -->
+                        <div class="formulario__grupo" id="grupo__correo">
+                            <label for="correo" class="formulario__label">Correo Electrónico</label>
+                            <div class="formulario__grupo-input">
+                                <input type="email" class="formulario__input" name="correo" id="correo"
+                                    placeholder="correo@correo.com">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                            <p class="formulario__input-error">El correo solo puede contener letras,numeros,
+                                puntos, guiones y guion bajo.</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <!-- Grupo: Teléfono -->
+                        <div class="formulario__grupo" id="grupo__telefono">
+                            <label for="telefono" class="formulario__label">Teléfono</label>
+                            <div class="formulario__grupo-input">
+                                <input type="text" class="formulario__input" name="telefono" id="telefono"
+                                    placeholder="4491234567">
+                                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            </div>
+                            <p class="formulario__input-error">El telefono solo puede contener numeros y el
+                                maximo son 14 dígitos.</p>
+                        </div>
+                    </fieldset>
+                    
+
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <input type="submit" id="button" value="Enviar" class="formulario__btn mt-2 mb-2">
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario
+                            enviado exitosamente!</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="fondo-formulario  " id="Direccion-mapa-google">
+            <div class="titulos-contacto">
+                <h3>Donde estamos</h3>
+            </div>
+            <div class="widget-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.996595598581!2d-84.13221798485309!3d9.934240492896187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fc9b80b19d15%3A0x7cc3e27b444bce4d!2sEscaz%C3%BA%20Village!5e0!3m2!1sen!2scr!4v1612567144362!5m2!1sen!2scr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Direccion mapa google"></iframe>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container ">
+      <footer class="container ">
+        <div class="row">
+          <div class="col-12 mt-md-5">
+            <div class="row contactenos mt-sm-5 mt-md-2">
+              <div class="col-12 col-md-4 text-center">
+                <h3>Contactenos</h3>
+              </div>
+              <div class="col-12 col-md-7 contactenos-iconos text-center">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f me-2" title="red Social Facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram me-2" title="red Social  instagram"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter me-2" title="red Social twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 info-diseñador mt-md-5">
+            <h5>©2020 Monogram</h5>
+            <p>Diseñadora:<a href="#"> Salomé Blanco Zúñiga</a></p>
+          </div>
+        </div>
+    
+      </footer>
+    </footer>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!--Script formularios-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('user_846gQ6k57XtZrDdvreqTQ')
+    </script>
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+            .addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                btn.value = 'Enviando...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_9km7pko';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Enviado';
+
+                    }, (err) => {
+                        btn.value = 'Send Email';
+                        alert(JSON.stringify(err));
+                    });
+            });
+    </script>
+
+    
+    <!--script extras-->  
+
+       <script src="./script1.js"></script>
+  <script src="./script3.js"></script>
+  <script src="js/formulario.js"></script>
+
+  </body>
+</html>
